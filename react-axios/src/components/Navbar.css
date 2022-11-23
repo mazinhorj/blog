@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #141414;
+}
+
+.navbar h1 a{
+    font-size: 2.4rem;
+    color: #fff;
+    opacity: 1;
+}
+
+.navbar ul {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    gap: 1.2rem;
+}
+
+.new_btn {
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: .4rem 1.2rem;
+    border-radius: 30px;
+}
+
+.new_btn:hover {
+    transition: .3s;
+    background-color: #f2f2f2;
+    color: #222;
+}
